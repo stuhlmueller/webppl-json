@@ -1,0 +1,16 @@
+{
+  "name": "webppl-json",
+  "description": "Utilities for reading and writing json files from webppl",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "author": "Andreas Stuhlmueller",
+  "webppl": {
+    "wppl": ["src/json.wppl"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stuhlmueller/webppl-json"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
