@@ -6,7 +6,7 @@ function read(filename, maybeEncoding) {
 }
 
 function write(filename, data) {
-  return fs.writeFileSync(filename, JSON.stringify(data));
+  return fs.writeFileSync(filename, JSON.stringify(data, null, 2));
 }
 
 module.exports = {
